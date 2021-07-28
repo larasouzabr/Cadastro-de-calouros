@@ -1,78 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=".\styles.css">
-    <title>Cadastro</title>
-</head>
-<body>
-    <main class="container">
-        <img src= "colorido_horizontal.png" alt="logo-ufc-quixadá" id="logo-ufc"> 
-        <h1 class="title">Cadastro de calouros da UFC </h1>
-        <div class="row">
-            <div class="inputbox">
-                <input type="text" id="nome" required>
-                <label for="nome">Nome</label>
-            </div>
-            <div class="inputbox">
-                <input type="text" id="email"  required>
-                <label for="email">Email</label>
-            </div>
-        </div>
-        <div class="row">
-            <div class="inputbox">
-                <input type="text" id="cep"  required>
-                <label for="cep">CEP</label>
-            </div>
-            <div class="inputbox">
-                <input type="text" id="endereço"  required>
-                <label for="endereço">Endereço</label>
-            </div>
-            <div class="inputbox">
-                <input type="text" id="numero"  required>
-                <label for="numero">Número</label>
-            </div>
-        <!-- </div> -->
-        <!-- <div class="row"> -->
-            <div class="inputbox">
-                <input type="text" id="bairro"  required>
-                <label for="bairro">Bairro</label>
-            </div>
-            <div class="inputbox">
-                <input type="text" id="cidade"  required>
-                <label for="cidade">Cidade</label>
-            </div>
-            <div class="inputbox">
-                <input type="text" id="estado"  required>
-                <label for="estado">Estado</label>
-            
-    
-            <label for="curso" id="input">Curso</label><br>
-            <div class="selection">
-            <form>
-            <select id="curso">
-                <option id="es">Engenharia de Software</option>
-                <option id="dd">Design Digital</option>
-                <option id="ec">Engenharia de Computação</option>
-                <option id="cc">Ciência da Computação</option>
-                <option id="si">Sistemas de Informação</option>
-                <option id="rc">Redes de Computadores</option>
-            </select>
-        </form>  
-    </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href=".\styles.css" />
+		<author name="Grupo 4 - IES">  </author>
+		<title>Cadastro de Calouros UFC</title>
+	</head>
+	<body>
+		<main class="container">
+			<div class="logo-container">
+				<img
+					src="colorido_horizontal.png"
+					alt="logo-ufc-quixadá"
+					id="logo-ufc"
+				/>
+			</div>
 
-            <div class="inputbox">
-                <input type="text" id="idade"  required>
-                <label for="idade">Idade</label>
-            </div>
-        </div>
-        <div class="row">
-            <button>Salvar</button>
-        </div>
-    </main>
-    <footer>
-        Grupo 4 - Lara Souza, João Gabriel, Daniel Fernandes,Vinícius Lemos e Victor Anthony.  
-    </footer>
-</body>
+			<h1 class="title">Cadastro de calouros da UFC</h1>
+
+			<div class="row">
+				<div class="inputbox">
+					<input type="text" id="nome" required />
+					<label for="nome">Nome</label>
+				</div>
+
+				<div class="inputbox">
+					<input type="text" id="email" required />
+					<label for="email">Email</label>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="inputbox">
+					<input type="text" id="cep" required />
+					<label for="cep">CEP</label>
+				</div>
+
+				<div class="inputbox">
+					<input type="text" id="endereço" required />
+					<label for="endereço">Endereço</label>
+				</div>
+
+				<div class="inputbox">
+					<input type="number" id="numero" required />
+					<label for="numero">Número</label>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="inputbox">
+					<input type="text" id="bairro" required />
+					<label for="bairro">Bairro</label>
+				</div>
+
+				<div class="inputbox">
+					<input type="text" id="cidade" required />
+					<label for="cidade">Cidade</label>
+				</div>
+
+				<div class="inputbox">
+					<input type="text" id="estado" required />
+					<label for="estado">Estado</label>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="inputbox">
+					<select id="curso">
+						<option id="es">Engenharia de Software</option>
+						<option id="dd">Design Digital</option>
+						<option id="ec">Engenharia de Computação</option>
+						<option id="cc">Ciência da Computação</option>
+						<option id="si">Sistemas de Informação</option>
+						<option id="rc">Redes de Computadores</option>
+					</select>
+					<label for="curso" id="input">Curso</label>
+				</div>
+
+				<div class="inputbox">
+					<input type="text" id="idade" required />
+					<label for="idade">Idade</label>
+				</div>
+			</div>
+
+			<div class="row">
+				<button>Salvar</button>
+			</div>
+		</main>
+		<footer>
+			Grupo 4 - Lara Souza, João Gabriel, Daniel Fernandes,Vinícius Lemos e
+			Victor Anthony.
+		</footer>
+	</body>
 </html>
