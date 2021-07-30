@@ -1,0 +1,14 @@
+{
+  "name": "cadastro-de-calouros",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/larasouzabr/Cadastro-de-calouros.git",
+  "author": "Grupo 4 - IES",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
