@@ -49,11 +49,18 @@ body {
 	color: var(--primary-color);
 }
 
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 48px;
+}
+
 .row {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-	gap: 40px;
+	gap: 48px;
 }
+
 .inputbox {
 	position: relative;
 	display: flex;
@@ -94,21 +101,17 @@ body {
 cursor:pointer;
 
 }
-.inputbox input:focus,
-.inputbox input:valid,
-.inputbox select:focus,
-.inputbox select:valid {
+
+.inputbox input,
+.inputbox select {
 	height: 100%;
 } 
 
-.inputbox input:focus + label,
-.inputbox input:valid + label,
-.inputbox select:focus + label,
-.inputbox select:valid + label{
+.inputbox input + label,
+.inputbox select + label {
 	top: -40px;
 	left: 0;
 } 
-
 
 .container button {
 	justify-self: center;
